@@ -2,6 +2,8 @@ let faceapi;
 let video;
 let detections;
 
+
+
 // by default all options are set to true
 const detection_options = {
     withLandmarks: true,
@@ -52,7 +54,7 @@ function gotResults(err, result) {
             // console.log(detections)
             drawBox(detections)
             drawLandmarks(detections)
-            drawEyes(detections)
+            // drawEyes(detections)
         }
 
     }
