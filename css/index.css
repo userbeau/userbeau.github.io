@@ -7,6 +7,26 @@ body {
   background-color: black;
 }
 
+p::selection {
+  color: rgba(0,0,0,1);
+  background: rgba(255,255,255,1);
+}
+
+h1::selection {
+  color: rgba(0,0,0,1);
+  background: rgba(255,255,255,1);
+}
+
+li::selection {
+  color: rgba(0,0,0,1);
+  background: rgba(255,255,255,1);
+}
+
+a::selection {
+  color: rgba(0,0,0,1);
+  background: rgba(255,255,255,1);
+}
+
 h1 {
   font-family: violetSans;
   font-size: 2em;
