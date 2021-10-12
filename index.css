@@ -71,7 +71,7 @@ a.nav-link {
   /* grid-template-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr; */
   grid-template-areas:
-    "img1 img1"
+    "img13 img13"
     "img2 img3"
     "img4 img4"
     "img5 img6"
@@ -79,7 +79,7 @@ a.nav-link {
     "img8 img9"
     "img10 img10"
     "img11 img12"
-    "img13 img13"
+    "img1 img1"
     "img14 img15";
 }
 
